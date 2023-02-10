@@ -5,7 +5,7 @@ export default function About() {
         <div className="about--container">
             <div>
                 <h4 className="about--heading">About</h4>
-                <p className="about--text">I am a self-taught frontend developer with a always learning mindset. I try to keep up with maintaining the syntax and best practices. I try to accomplish the goal in as minimal time as possible</p>
+                <p className="about--text">I am a self-taught frontend developer with a always learning mindset. I try to keep up with maintaining the syntax and best practices. I try to accomplish the goal in as minimal time as possible.</p>
             </div>
             <div>
                 <h4 className="about--heading">Interests</h4>
