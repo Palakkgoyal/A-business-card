@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Photo from "./Components/Photo.mjs"
+import Info from "./Components/Info.mjs"
+import Email from "./Components/Email.mjs"
+import About from "./Components/About.mjs"
+import Footer from "./Components/Footer.mjs"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return(
+        <div className="App">
+        <Photo />
+        <Info name="Palak Goyal" profession="Frontend Developer" websiteUrl="https://palakgoyal.netlify.app" website="palakgoyal.netlify.app"/>
+        <Email />
+        <About />
+        <Footer />
+        </div>
+    )
 }
-
-export default App;
