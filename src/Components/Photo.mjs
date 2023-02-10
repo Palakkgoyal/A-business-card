@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../Profile.png"
+import Profile from "../Images/profile.jpeg"
 
 export default function Photo() {
     return(
